@@ -6,6 +6,6 @@ const people = [
   { name: 'Marco', age: 67 }
 ];
 
-const result = people.map(curPerson => curPerson.name)
-
-console.log(result);
+people.forEach((curPerson) => {
+  console.log(curPerson.name);
+ })
