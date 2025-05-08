@@ -1,3 +1,5 @@
+// Crea un nuovo array coi nomi di tutti gli autori
+// Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
 const posts = [
   { author: 'Marco', date: '12/3/2021', content: 'lorem ipsum...' },
   { author: 'Luca', date: '30/6/2021', content: 'lorem ipsum...' },
@@ -6,13 +8,5 @@ const posts = [
 ]
 
 const newArray = []
-
 const result = posts.map(person => person.author)
-
 console.log(result);
-
-
-
-
-// Crea un nuovo array coi nomi di tutti gli autori
-// Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
