@@ -19,10 +19,10 @@ const students = [
   },
 ];
 
-students.forEach((curStudent) => {
-  if (curStudent.name === "Marco Lanci") {
-    console.log(curStudent.class);
-  }
+const result = students.find((student) => {
+  return student.name === "Marco Lanci";
 });
+
+console.log(result.class);
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
